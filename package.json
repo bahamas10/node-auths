@@ -1,0 +1,21 @@
+{
+  "name": "auths",
+  "version": "0.0.0",
+  "description": "Print authorizations granted to a user on an Illumos based operating system",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "main": "./auths.js",
+  "scripts": {
+    "test": "for f in ./tests/*.js; do echo \"$f\"; node \"$f\" || exit 1; echo; done; echo passed"
+  },
+  "repository": "git://github.com/bahamas10/node-auths.git",
+  "license": "MIT",
+  "keywords": [
+    "illumos",
+    "rbac",
+    "auths",
+    "permissions"
+  ],
+  "dependencies": {
+    "exec": "0.0.5"
+  }
+}
