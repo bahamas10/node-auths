@@ -7,7 +7,7 @@ Usage
 -----
 
 ``` js
-var auths = require('../');
+var auths = require('auths');
 
 auths(function(err, privileges) {
   if (err) throw err;
